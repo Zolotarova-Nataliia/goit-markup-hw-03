@@ -28,7 +28,7 @@
 
     <header class="header">
       <div class="container header-container">
-        <nav class="navigation header-content">
+        <nav class="navigation">
           <a class="logo" href="./index.html" lang="en"
             ><span class="logo-part">Web</span>Studio
           </a>
@@ -67,17 +67,21 @@
     <!-- MAIN CONTENT-->
     <main>
       <!--HERO-->
-      <section class="hero-container">
-        <div class="hero-section">
+      <section class="hero">
+        <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button class="modal-btn" type="button">Заказать услугу</button>
         </div>
       </section>
 
       <!---ABOUT-->
-      <section class="container">
-        <div class="upper-section content">
-          <ul class="list upper-section-list">
+      <section class="about-section">
+
+        <div class="container">
+
+
+          <div class="upper-section">
+           <ul class="list upper-section-list">
             <li class="upper-section-item">
               <h3 class="title">Внимание к деталям</h3>
               <p class="subtitle">
@@ -102,19 +106,21 @@
               </p>
             </li>
 
-            <li class="upper-section-item">
-              <h3 class="title">Современные технологии</h3>
-              <p class="subtitle">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
-              </p>
-            </li>
-          </ul>
+             <li class="upper-section-item">
+               <h3 class="title">Современные технологии</h3>
+               <p class="subtitle">
+                 Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.</p>
+              </li>
+            </ul>
+
+          </div>
+        
         </div>
       </section>
 
       <section class="container">
-        <div class="down-section content">
+        <div class="down-section ">
           <h2 class="main-title">Чем мы занимаемся</h2>
 
           <ul class="list down-section-list">
@@ -148,12 +154,16 @@
         </div>
       </section>
 
+        </div>
+       
+
       <!---OUR TEAM SECTION-->
 
-      <section class="container our-team-container">
-        <div class="content">
+      <section class="our-team-section">
+        <div class="container our-team-content">
+          
           <h2 class="main-title">Наша команда</h2>
-          <ul class="list our-team-section">
+          <ul class="list our-team-list">
             <li class="our-team-item">
               <img
                 src="./images/our_team/igor-demyanenko.jpg"
@@ -216,14 +226,14 @@
       </section>
     </main>
 
-    <footer class="footer container">
-      <div class="footer-content">
+    <footer class="footer">
+      <div class="container footer-content">
         <a class="footer-logo logo" href="./index.html" lang="en">
           <span class="logo-part">Web</span>Studio
         </a>
         <address>
-          <ul class="info list">
-            <li>
+          <ul class="footer-list list">
+            <li class="footer-item">
               <a
                 class="footer-adress-link link"
                 href="https://goo.gl/maps/RriFzFvJcHyVF99A9"
@@ -233,12 +243,12 @@
                 г. Киев, пр-т Леси Украинки, 26
               </a>
             </li>
-            <li>
+            <li class="footer-item">
               <a class="footer-mail-link link" href="mailto:info@devstudio.com">
                 info@devstudio.com
               </a>
             </li>
-            <li>
+            <li class="footer-item">
               <a class="footer-tel-link link" href="tel:+380961111111">
                 +38 096 111 11 11
               </a>
